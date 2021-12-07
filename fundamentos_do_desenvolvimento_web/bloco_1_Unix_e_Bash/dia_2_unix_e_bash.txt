@@ -1,0 +1,60 @@
+/// 11 de novembro 2021 - Unix e Bash - Parte 2
+/// Utilizar os operadores > (maior), >> (maior maior) e | (pipe) no terminal, utilizar o comando find, lidar com os processos do terminal.
+
+cat > 'arquivo' = atribui valores a um arquivo.
+cat >> 'arquivo' = acrescenta valores a um arquivo.
+cat 'arq1' 'arq2' > 'arq3' = junta os conteúdos em um só arquivo.
+sort = organiza os valores de um arquivo.
+
+
+
+
+( o sinal de menor { < } gera um output, uma saída de dados apenas para o meu terminal, não modificando o arquivo em si )
+exemplo: sort < exemplo.txt
+( dá pra mandar esse output pra outro arquivo )
+exemplo: sort < exemplo.txt > resultado.txt
+
+
+
+
+who = mostra quem está usando o sistema.
+ |  = essa barra vertical chamada pipe serve para juntar comandos de input.
+ ls -l = mostra todos os arquivos em lista, detalhadamente.
+ ll = mostra todos os arquivos em lista, detalhadamente.
+ chmod = me permite modificar as permissões de arquivos dentro da minha máquina.
+
+
+
+
+( Permissões de usuários )
+Diretório d / Leitura r / Escrita w / Execução x
+( Caracteres do comando chmod )
+Pro meu usuario u / Pro meu grupo g / outros usuarios o / todo mundo a
+( Se quiser retirar permissão é - )
+( Se quiser dar permissão é + )
+( Se quiser deixar igual a condição usa = )
+Exemplo: ( chmod u+rw exemploDeArquivo.txt )
+
+
+
+
+ps = abre uma lista de processos atuais.
+sleep = adormece meu terminal.
+jobs = mostra todos os processos em lista e seus status atualmente.
+kill 'número' = elimino um processo.
+kill -9 'número' = Força um processo a ser encerrado.
+find . 'sua pesquisa' = Esse é o comando de procurar.
+find . -type d = mostra todos os diretórios.
+find . -type f = mostra todos os arquivos.
+find . -name 'palavra' - busca arquivos e diretórios que contenham sua palavra.
+history = mostra todo seu histórico de comandos nesse terminal.
+echo 'mensagem' = exibe uma mensagem no terminal.
+echo 'mensagem' > arquivo.txt = atribui a mensagem a um arquivo. ( melhor usar o cat )
+'comando' & = executa um comando em segundo plano se terminar com &
+   ( & se lê: E comercial )
+
+ ( control c ) elimina processos em execução.
+ ( control z ) pausa processos em execução.
+ bg = retorna projetos pausados.
+ fg %1 = reinicia o primeiro processo suspenso.
+ kill %1 - mata o primeiro processo suspenso.

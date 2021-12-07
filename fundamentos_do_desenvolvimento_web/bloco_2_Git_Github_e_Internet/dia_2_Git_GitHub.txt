@@ -1,0 +1,20 @@
+17/11/2021 Git & GitHub - Entendendo os comandos
+
+(git clone ) Esse comando cópia um git existente.
+( git log ) mostra todos os commits que eu fiz dentro da branch.
+( git log --diff-filter=D --summary ) esse comando busca os coomits que foram apagados e exibe em forma de sumário.
+exemplo: ( git checkout 4441~1 arquivo.txt ) busca um commit antigo e trás pra branch atual esse arquivo.txt que foi apagado.
+( .gitignore ) tudo q tiver dentro desse arquivo vai ser ignorado pelo git.
+
+( git push ) manda meu git lá pro hithub.
+( git pull ) atualiza meu git de acordo com o github.
+
+( git branch ) eu mostro as branchs na minha máquina.
+( git branch "nome" ) cria uma nova branch.
+( git checkout "nomeDaBranch" ) muda minha branch.
+
+( git checkout -b "nomeDaBanch" ) sai da branch atual,cria e entra em uma nova.
+( git commit -am "mensagem" ) já dá o "add ." e escreve a mensagem depois.
+( git version ) me mostra a versão do meu git.
+
+

@@ -1,0 +1,35 @@
+19/11/2021
+
+html é uma ferramenta de organização de texto, e não uma linguagem de programação.
+
+Html é composto por head e body, sendo que head são os meta dados, e o body é o conteúdo da página em si.
+
+
+<title> é o título da página
+<h1> cria um cabeçalho
+<h2> cria um cabeçalho menor
+<p> parágrafo
+<img> imagem
+
+Dentro de tags de texto:
+<em> coloca em "itálico"
+<strong> coloca em negrito
+<br> quebra uma linha
+
+<ul> cria uma lista não ordenada
+<ol> cria uma lista ordenada
+<li> escreve dentro dessa lista
+
+Dentro da tag <img> :
+<src> busca a imagem
+<width> informa quantos pixels a imagem tem
+<alt> dá uma descrição a imagem
+
+<a> essa tag gera uma frase com link
+
+Dentro da tag <a>:
+href="" essa propriedade cria um link na mensagem
+target="_blank" essa propriedade abre o link em outra aba
+
+<id> gera um id único pra alguma tag do html
+

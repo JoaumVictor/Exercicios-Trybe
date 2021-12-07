@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+    line-height: 40px;
+    
+  }
+  
+  h1 {
+    font-size: sans-serif;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #amarelo {
+    background-color: yellow;
+  }
+
+  #vermelho {
+    background-color: red;
+  }
+
+  #marrom {
+    background-color: brown;
+  }

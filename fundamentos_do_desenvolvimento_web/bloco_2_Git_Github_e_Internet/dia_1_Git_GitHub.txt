@@ -1,0 +1,10 @@
+16/11/2021
+Bloco 2.1 - Git & GitHub - O que é e para que serve
+ 
+( git add . ) salva todas as mudanças no diretório.
+( git commit -m "mensagem" ) Cria um checkpoint do seu último save.
+( git push origin master ) Esse comando manda tudo que eu fiz pro GitHub.
+
+( git init ) Inicia um git no diretório atual.
+( git status ) Me mostra como está meu Git em relação ao Github.
+( git remote -v ) Me mostra onde meu git atual está hospedado.

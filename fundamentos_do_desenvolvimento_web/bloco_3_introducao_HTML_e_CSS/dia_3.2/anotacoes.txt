@@ -1,0 +1,20 @@
+22/11/2021
+
+<style>
+
+font-family;          muda o estilo do texto.
+color;                muda a cor.
+font-size;            muda o tamanho do texto.
+background-color;     cor de fundo.
+class;               classe de algumas tags
+font-weight= bold;    colocar em negrito
+font-style= italic;   colocar em itálico
+line-height= 40px;    espassamento entre linhas
+text-align= center;   decidir se o texto fica a direita, esquerda, meio...
+text-decoration= underline;   deixa o texto sublinhado
+
+font-size= 2em;  a propriedade em multiplica o tamanho em relação ao body.
+
+<link rel="" type="text/css" href="">
+
+border-radius= 50%;

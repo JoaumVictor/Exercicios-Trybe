@@ -1,0 +1,31 @@
+/// 11 de novembro 2021 - Unix e Bash - Parte 1
+/// Aprendi a criar, navegar, visualizar diretórios, copiar, mover e remover arquivos e diretórios.
+
+cd = acessar uma diretório.
+ls = mostra oque tem no diretório.
+ls -a = lista todos os arquivos do diretório.
+cat = mostra oque tem dentro de um arquivo.
+clear = limpa os comendos do terminal.
+pwd = mostra o caminho do diretório atual.
+mv = move um arquivo.
+rm = apaga um arquivo.
+mkdir = cria um diretório.
+rmdir = apaga um diretório.
+rm -rf = apaga um diretório com contéudo dentro.
+less = abre um modo de paginação em um arquivo.
+head -'número' = mostra os primeiros valores de um arquivo.
+tail -'número' = mostra os ultimos valores de um arquivo.
+grep 'mensagem' 'arquivo' = busca tudo que tiver sua mensagem.
+grep -i 'mensagem' 'arquivo' = faz uma busca dentro de um arquivo, da mensagem que você escrever.
+grep -iv 'mensagem' 'arquivo' = nessa variação ele te retorna tudo que não é oque você escrever.
+grep -in 'mensagem' 'arquivo' = encontra sua mensagem e ainda diz em qual linha ela está.
+grep -ic 'mensagem' 'arquivo' = mostra quantas vezes essa mensagem aparece nesse arquivo.
+wc 'arquivo' = revela a quantidade de linhas, palavras e caracteres de um arquivo.
+wc -l = revela a quantidade de linhas.
+wc -w = revela a quantidade de palavras.
+wc -c = revela a quantidade de caracteres.
+ls * = revela todos os sub diretórios e arquivos no meu diretório atual.
+
+man 'comando' = manual de algum comando.
+whatis 'comando' = resumo de um comando.
+apropos 'palavra' = me ajuda a buscar um comando através de uma palavra.
