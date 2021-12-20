@@ -1,16 +1,8 @@
-var p1 = document.getElementById("paragraph");
-var p2 = document.getElementById("second-paragraph");
-var t2 = document.getElementById("subtitle");
-var t1 = document.getElementById("page-title");
+var titulos = document.getElementsByClassName("titles")
 
-p1.style.color = "brown";
-p1.innerText = "Piratas do caríbe é íncrivel e eu posso provar!";
+titulos[0].style.color = "red";
 
+var p2 = document.getElementsByTagName("p");
 
-p2.style.color = "brown";
-p2.innerText = "Melhores filmes da história!";
-
-
-t1.innerText = "testando comandos rapidão kk";
-t2.innerText = "Hulk Esmaga";
-
+p2[1].style.color = "blue";
+p2[1].innerText = "Não sei Rick, parece falso!"
