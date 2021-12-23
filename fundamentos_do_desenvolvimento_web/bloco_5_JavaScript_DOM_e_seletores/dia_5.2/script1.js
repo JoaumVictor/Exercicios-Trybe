@@ -1,8 +1,7 @@
-var titulos = document.getElementsByClassName("titles")
+var t = document.body.querySelectorAll(".titles")
 
-titulos[0].style.color = "red";
+t[0].style.color = "blue";
+t[0].innerText = "Não sei Rick, parece falso!"
 
-var p2 = document.getElementsByTagName("p");
-
-p2[1].style.color = "blue";
-p2[1].innerText = "Não sei Rick, parece falso!"
+t[1].style.color = "blue";
+t[1].innerText = "Dificuldade do caramba";
