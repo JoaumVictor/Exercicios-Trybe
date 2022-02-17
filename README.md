@@ -1,3 +1,0 @@
-# exercicios
-
-é isso
